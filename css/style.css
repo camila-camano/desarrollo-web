@@ -32,13 +32,13 @@ header {
   max-width: 1320px;
 }
 
-.row {
+.row1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.col {
+.col1 {
   width: 100%;
 }
 
