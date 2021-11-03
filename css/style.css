@@ -422,16 +422,8 @@ footer {
 
 .formulario {
   background-color: beige;
-
-  display: flex;
-  flex-direction: column;
-  max-width: 340px;
-  text-align: center;
-
-  align-items: center;
-  justify-content: space-evenly;
-
-  margin: 10px;
+  margin: 15px;
+  padding: 15px;
 }
 
 .formulario--item {
