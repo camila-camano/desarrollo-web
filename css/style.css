@@ -276,8 +276,8 @@ footer {
   align-content: center;
 }
 
-.card {
-  padding-top: 2rem;
+.carta {
+  padding: 1rem;
   justify-self: center;
   align-self: center;
   width: 100%;
@@ -288,19 +288,20 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-bottom: 50px;
 
-  margin: 10px;
+  margin: 5px;
 
   transition: 1s;
 }
 
-.card:hover {
-  transform: scale(1.5, 1.5);
+.carta:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .producto {
   max-width: 100%;
   height: auto;
-  width: 5rem;
+  width: 6rem;
+  margin: 5px;
 }
 
 .card__titulo {
