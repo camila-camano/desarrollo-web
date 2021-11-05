@@ -1,0 +1,102 @@
+@import "aux";
+
+//*----header + menu-------*//
+header {
+  position: sticky;
+  padding: 0.5rem 0;
+  top: 0;
+  z-index: 1;
+  background-color: $crema;
+  display: flex;
+  flex-direction: column;
+
+  .contenedor {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+  }
+
+  .logo__contenedor {
+    text-align: center;
+  }
+
+  .logo {
+    width: 3rem;
+  }
+
+  .row1 {
+    @include flexbox;
+  }
+
+  .col1 {
+    width: 100%;
+  }
+
+  /*---menu---*/
+  .menu {
+    display: flex;
+    list-style: none;
+
+    .menu__item {
+      color: white;
+      margin: 4px;
+      padding: 10px;
+      a {
+        color: $azul;
+        text-decoration: none;
+        font-size: $font-subtitle;
+      }
+    }
+  }
+}
+
+/*-------footer-----*/
+footer {
+  height: 10%;
+  background-color: $azul;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  text-align: right;
+
+  .footer--texto {
+    color: $crema;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .iconos {
+    @include flexbox;
+    justify-content: center;
+  }
+
+  .iconito {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .svg-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #f5eccd;
+  }
+
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+}
+
+/*-----------body general------------*/
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+
+  font-size: 100%;
+  background-color: $rosa_normal;
+}

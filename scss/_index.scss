@@ -1,0 +1,55 @@
+@import "aux";
+
+/*---- contenido del index ----*/
+
+main {
+  .intro {
+    background-image: url(/img/pink_flowers.jpg);
+    filter: saturate(0.6);
+    padding: 50px;
+    width: 100%;
+    height: auto;
+
+    .titulo {
+      color: #f5eccd;
+      font-size: 50px;
+      text-align: center;
+      padding: 20px;
+    }
+    .subtitulo {
+      color: #f5eccd;
+      font-size: 25px;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+
+  .intro__cuerpo {
+    background-color: $rosa_claro;
+    background-image: linear-gradient($rosa_claro, $rosa_normal);
+
+    margin: 30px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+
+  .intro__cuerpo--texto {
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .intro__cuerpo--texto2 {
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .intro__imagen {
+    filter: saturate(0.6);
+    width: 90%;
+  }
+}

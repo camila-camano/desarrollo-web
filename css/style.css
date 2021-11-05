@@ -1,75 +1,54 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/*estilos del body*/
-body {
-  font-family: "Hind Siliguri", sans-serif;
-  font-family: "Nunito", sans-serif;
-  font-family: "Zen Kurenaido", sans-serif;
-
-  font-size: 100%;
-  background-color: #ff87ab;
-}
-
-/*---------------estilos del header---------------------*/
 header {
   position: sticky;
   padding: 0.5rem 0;
   top: 0;
   z-index: 1;
   background-color: #f5eccd;
-  background-image: linear-gradient(#fafafa, #f5eccd);
   display: flex;
   flex-direction: column;
+  /*---menu---*/
 }
-
-.contenedor {
+header .contenedor {
   width: 80%;
   margin: 0 auto;
   max-width: 1320px;
 }
-
-.row1 {
+header .logo__contenedor {
+  text-align: center;
+}
+header .logo {
+  width: 3rem;
+}
+header .row1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
-.col1 {
+header .col1 {
   width: 100%;
 }
-
-.logo__contenedor {
-  text-align: center;
-}
-
-.logo {
-  width: 3rem;
-}
-
-/*---menu de navigacion----------*/
-.menu {
+header .menu {
   display: flex;
   list-style: none;
 }
-
-.menu__item {
+header .menu .menu__item {
   color: white;
   margin: 4px;
   padding: 10px;
 }
-.menu .menu__item a {
+header .menu .menu__item a {
   color: #1b065e;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 100;
 }
 
-/*-----------------------footer---------------------------*/
-
+/*-------footer-----*/
 footer {
   height: 10%;
   background-color: #1b065e;
@@ -77,361 +56,88 @@ footer {
   padding-bottom: 5px;
   text-align: right;
 }
-
-.footer--texto {
+footer .footer--texto {
   color: #f5eccd;
   font-size: 15px;
   margin: 10px;
   padding: 10px;
 }
-.iconos {
+footer .iconos {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  justify-content: center;
 }
-
-.iconito {
+footer .iconito {
   margin: 10px;
   padding: 10px;
 }
-
-.svg-icon {
+footer .svg-icon {
   width: 1.5rem;
   height: 1.5rem;
 }
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
+footer .svg-icon path,
+footer .svg-icon polygon,
+footer .svg-icon rect {
   fill: #f5eccd;
 }
-
-.svg-icon circle {
+footer .svg-icon circle {
   stroke: #4691f6;
   stroke-width: 1;
 }
 
-/*-----------------------------otros---------------------------*/
+/*-----------body general------------*/
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 100%;
+  background-color: #ff87ab;
+}
 
-/*-------------página de inicio---------------------*/
-
-/*----------Imagen de cabecera de la intro-------------*/
-
-.intro {
+/*---- contenido del index ----*/
+main .intro {
   background-image: url(/img/pink_flowers.jpg);
   filter: saturate(0.6);
   padding: 50px;
   width: 100%;
   height: auto;
 }
-
-.titulo {
+main .intro .titulo {
   color: #f5eccd;
   font-size: 50px;
   text-align: center;
+  padding: 20px;
 }
-.subtitulo {
+main .intro .subtitulo {
   color: #f5eccd;
   font-size: 25px;
   font-style: italic;
   text-align: center;
 }
-
-/*----------cuerpo-------------*/
-
-.intro__cuerpo {
+main .intro__cuerpo {
   background-color: #fcc8c2;
   background-image: linear-gradient(#fcc8c2, #ff87ab);
-
   margin: 30px;
   text-align: center;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid white;
   border-radius: 4px;
 }
-
-.intro__cuerpo--texto {
+main .intro__cuerpo--texto {
   font-size: 15px;
   padding: 20px;
 }
-
-.intro__cuerpo--texto2 {
+main .intro__cuerpo--texto2 {
   color: white;
   font-style: italic;
   font-size: 25px;
   text-align: center;
-
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.intro__imagen {
+main .intro__imagen {
   filter: saturate(0.6);
   width: 90%;
 }
 
-/*---------------------------------nosotros --------------------*/
-
-.nosotros__container {
-  background-image: url(/img/nosotros_banner.jpg);
-  filter: saturate(0.6);
-  padding: 50px;
-  width: 100%;
-  height: auto;
-}
-
-.nosotros {
-  background-color: #fcc8c2;
-  background-image: linear-gradient(#fcc8c2, #ff87ab);
-
-  margin: 30px;
-  text-align: center;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 4px;
-
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.owner__container--img {
-  margin: 20px;
-}
-
-.owner__img {
-  filter: saturate(0.6);
-  width: 100%;
-}
-
-.owner__container--text {
-  background-color: #ffffff;
-  max-width: 450px;
-  margin: 20px;
-  border: 2px solid white;
-  text-align: center;
-  text-shadow: black;
-}
-.owner__text {
-  padding: 1rem;
-  font-size: 25px;
-}
-
-.owner__text2 {
-  color: #ff47da;
-  font-style: bold;
-  padding: 1rem;
-  font-size: 25px;
-}
-
-/*---------------------------------catalogo---------------------*/
-
-/*----header de ofertas------*/
-.fotos__oferta {
-  background-image: url(../img/flowershop3.jpg);
-  padding: 50px;
-}
-
-/*---buscador----*/
-
-.buscador__contenedor {
-  text-align: left;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  background-image: linear-gradient(to right, white, rgb(245, 245, 245));
-}
-
-.buscador__texto {
-  font-size: 20px;
-  margin-left: 15px;
-  font-style: italic;
-  color: #1b065e;
-}
-
-/*---catalogo de productos----*/
-
-.catalogo {
-  background-color: #fcc8c2;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-  padding: 1rem;
-  background-color: #fcc8c2;
-  background-image: linear-gradient(#fcc8c2, #ff87ab);
-
-  margin: 30px;
-  text-align: center;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 4px;
-}
-
-.catalogo__productos {
-  display: grid;
-  padding: 2px;
-  width: 100%;
-  grid-template-columns: 200px 200px 200px;
-  grid-auto-rows: minmax(150px, auto);
-  column-gap: 90px;
-  row-gap: 10px;
-  justify-content: center;
-  align-content: center;
-}
-
-.carta {
-  padding: 1rem;
-  justify-self: center;
-  align-self: center;
-  width: 100%;
-  text-align: center;
-  border: 1px solid rgb(201, 201, 201);
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding-bottom: 50px;
-
-  margin: 5px;
-
-  transition: 1s;
-}
-
-.carta:hover {
-  transform: scale(1.1, 1.1);
-}
-
-.producto {
-  max-width: 100%;
-  height: auto;
-  width: 6rem;
-  margin: 5px;
-}
-
-.card__titulo {
-  font-size: 20px;
-  color: #ff47da;
-}
-
-.card__subtitulo {
-  color: rgb(82, 75, 75);
-  font-style: italic;
-}
-
-/*---------------------------------servicios--------------------*/
-
-.servicio__1 {
-  border-top: white 2px solid;
-  border-bottom: white 2px solid;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.6);
-  width: 100%;
-
-  height: 200px;
-  transition: all 1s;
-}
-
-.servicio__1:hover {
-  height: 300px;
-  padding: 40px;
-}
-
-.servicio__2 {
-  border-top: white 2px solid;
-  border-bottom: white 2px solid;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-image: url(../img/servicio2.jpg);
-  filter: saturate(0.6);
-  width: 100%;
-  height: 200px;
-  transition: all 1s;
-}
-
-.servicio__2:hover {
-  height: 300px;
-  padding: 40px;
-}
-
-.servicio__3 {
-  border-top: white 2px solid;
-  border-bottom: white 2px solid;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-image: url(../img/servicio3.jpg);
-  filter: saturate(0.6);
-  width: 100%;
-  height: 200px;
-  transition: all 1s;
-}
-
-.servicio__3:hover {
-  height: 300px;
-  padding: 40px;
-}
-
-.servicio__titulo {
-  font-size: 30px;
-  color: #f5eccd;
-  text-align: center;
-  margin: 10px;
-}
-
-.servicio__subtitulo {
-  font-size: 25px;
-  color: #ff47da;
-  text-align: center;
-  margin: 10px;
-}
-
-.servicio__texto {
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  color: #f5eccd;
-}
-
-/*---------------------------------contacto--------------------*/
-/*----------formulario------------*/
-
-.formulario--contenedor {
-  background-color: #fcc8c2;
-  background-image: linear-gradient(#fcc8c2, #ff87ab);
-
-  margin: 30px;
-  text-align: center;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 4px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-  margin-bottom: 10%;
-  padding: 1rem;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 4px;
-  text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.formulario--info {
-  margin: 25px;
-  text-align: center;
-  color: #000000;
-}
-
-.formulario {
-  background-color: beige;
-  margin: 15px;
-  padding: 15px;
-}
-
-.formulario--item {
-  margin: 10px;
-  text-align: left;
-  color: black;
-}
-
-.formulario--boton {
-  margin: 10px;
-}
+/*# sourceMappingURL=style.css.map */

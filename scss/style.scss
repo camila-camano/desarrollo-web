@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "global"; //header + footer + body
+@import "aux"; // variables + funciones
+@import "index"; //estilos del index

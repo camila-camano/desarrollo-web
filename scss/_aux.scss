@@ -1,0 +1,14 @@
+$rosa_normal: #ff87ab;
+$rosa_claro: #fcc8c2;
+$rosa_fuerte: #ff47da;
+$crema: #f5eccd;
+$azul: #1b065e;
+
+$font-subtitle: 20px;
+$font_subtitle_color: grey;
+
+@mixin flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
