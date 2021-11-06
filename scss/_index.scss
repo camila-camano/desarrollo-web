@@ -11,10 +11,7 @@ main {
     height: auto;
 
     .titulo {
-      color: #f5eccd;
-      font-size: 50px;
-      text-align: center;
-      padding: 20px;
+      @include titulo;
     }
     .subtitulo {
       color: #f5eccd;

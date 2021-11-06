@@ -12,3 +12,10 @@ $font_subtitle_color: grey;
   justify-content: space-around;
   align-items: center;
 }
+
+@mixin titulo {
+  color: #f5eccd;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}

@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
-@import "global"; //header + footer + body
 @import "aux"; // variables + funciones
+@import "global"; //header + footer + body
 @import "index"; //estilos del index
+@import "nosotros"; //estilos de la página nosotros

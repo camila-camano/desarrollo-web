@@ -1,0 +1,51 @@
+@import "aux";
+
+.nosotros__container {
+  background-image: url(/img/nosotros_banner.jpg);
+  filter: saturate(0.6);
+  padding: 50px;
+  width: 100%;
+  height: auto;
+
+  .titulo {
+    @include titulo;
+  }
+}
+
+.nosotros {
+  background-color: #fcc8c2;
+  background-image: linear-gradient(#fcc8c2, #ff87ab);
+
+  margin: 30px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  .owner__container--img {
+    margin: 20px;
+  }
+
+  .owner__container--text {
+    background-color: #ffffff;
+    max-width: 450px;
+    margin: 20px;
+    border: 2px solid white;
+    text-align: center;
+    text-shadow: black;
+  }
+
+  .owner__text {
+    padding: 1rem;
+    font-size: 25px;
+  }
+
+  .owner__text2 {
+    color: #ff47da;
+    font-style: bold;
+    padding: 1rem;
+    font-size: 25px;
+  }
+}
