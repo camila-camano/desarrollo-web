@@ -14,10 +14,7 @@ main {
       @include titulo;
     }
     .subtitulo {
-      color: #f5eccd;
-      font-size: 25px;
-      font-style: italic;
-      text-align: center;
+      @include subtitulo;
     }
   }
 

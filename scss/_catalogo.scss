@@ -1,0 +1,83 @@
+@import "aux";
+
+.fotos__oferta {
+  background-image: url(../img/flowershop3.jpg);
+  padding: 50px;
+
+  .titulo {
+    @include titulo;
+  }
+  .subtitulo {
+    @include subtitulo;
+  }
+}
+
+.catalogo {
+  background-color: $rosa_normal;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  padding: 1rem;
+  background-color: $rosa_claro;
+  background-image: linear-gradient(#fcc8c2, #ff87ab);
+
+  margin: 30px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+
+  .buscador__contenedor {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    background-image: linear-gradient(to right, white, rgb(245, 245, 245));
+
+    .buscador__texto {
+      font-size: 20px;
+      margin-left: 15px;
+      font-style: italic;
+      color: $azul;
+    }
+  }
+
+  .carta {
+    padding: 1rem;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 50px;
+
+    margin: 5px;
+
+    transition: 1s;
+
+    .titulo {
+      font-size: 20px;
+      color: $rosa_fuerte;
+    }
+
+    .subtitulo {
+      color: rgb(82, 75, 75);
+      font-style: italic;
+    }
+
+    .producto {
+      max-width: 100%;
+      height: auto;
+      width: 6rem;
+      margin: 5px;
+    }
+  }
+}
+
+.carta:hover {
+  transform: scale(1.1, 1.1);
+}
