@@ -1,0 +1,43 @@
+.formulario--contenedor {
+  background-color: #fcc8c2;
+  background-image: linear-gradient(#fcc8c2, #ff87ab);
+
+  margin: 30px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  padding: 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .formulario--info {
+    margin: 25px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+.formulario {
+  background-color: beige;
+  margin: 15px;
+  padding: 15px;
+  .formulario--item {
+    margin: 10px;
+    text-align: left;
+    color: black;
+  }
+  .formulario--boton {
+    margin: 20px;
+    padding: 10px;
+    background-color: $rosa-fuerte;
+  }
+}
