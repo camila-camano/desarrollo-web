@@ -22,7 +22,7 @@
     />
 
     <link rel="stylesheet" href="../css/style.css" />
-    
+
     <title>Contacto</title>
   </head>
 
@@ -77,48 +77,62 @@
       </div>
     </header>
 
-    <main >
+    <main>
       <!-----main----->
 
-      <div class="contenedor">
-        <div class="row">
-          <div class="col">
+      <!-----contenedor del formulario----->
+      <div class="formulario--contenedor">
+        <!-----texto pre formulario----->
+        <p class="formulario--info">
+          Para contactarse con nosotros, complete el siguiente formulario con la
+          información solicitada:
+        </p>
 
-            <!-----contenedor del formulario----->
-            <div class="formulario--contenedor">
-              <!-----texto pre formulario----->
-              <p class="formulario--info">
-                Para contactarse con nosotros, complete el siguiente formulario
-                con la información solicitada:
-                
-              </p>
-
-              
-              <!-----formulario posta---->
-              <div class="formulario" >
-                <form>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">No compartiremos tu información.</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                  </div>
-                  <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Quiero suscribirme.</label>
-                  </div>
-                  <button class="formulario--boton" type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-                
+        <!-----formulario posta---->
+        <div class="formulario">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                No compartiremos tu información.
               </div>
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Quiero suscribirme.</label
+              >
+            </div>
+            <button
+              class="formulario--boton"
+              type="submit"
+              class="btn btn-primary"
+            >
+              Enviar
+            </button>
+          </form>
         </div>
       </div>
-    </div>
     </main>
 
     <footer>
@@ -160,7 +174,6 @@
         </div>
       </div>
     </footer>
-
 
     <!-----javascript----->
     <script
