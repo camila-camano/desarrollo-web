@@ -9,45 +9,46 @@ header {
   background-color: $crema;
   display: flex;
   flex-direction: column;
+}
 
-  .contenedor {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1320px;
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.logo__contenedor {
+  text-align: center;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.row1 {
+  @include flexbox;
+}
+
+.col1 {
+  width: 100%;
+}
+
+/*---menu---*/
+nav {
+  .texto__nav {
+    color: $rosa_normal;
+    font-size: 20px;
   }
 
-  .logo__contenedor {
-    text-align: center;
+  .texto__nav:hover {
+    color: $rosa_fuerte;
   }
+}
 
-  .logo {
-    width: 3rem;
-  }
-
-  .row1 {
-    @include flexbox;
-  }
-
-  .col1 {
-    width: 100%;
-  }
-
-  /*---menu---*/
-  .menu {
-    display: flex;
-    list-style: none;
-
-    .menu__item {
-      color: white;
-      margin: 4px;
-      padding: 10px;
-      a {
-        color: $azul;
-        text-decoration: none;
-        font-size: $font-subtitle;
-      }
-    }
-  }
+/*----------main---------*/
+.main {
+  margin: 20px;
+  padding: 40px;
 }
 
 /*-------footer-----*/

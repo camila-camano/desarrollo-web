@@ -19,6 +19,15 @@
       href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Nunito:wght@200&family=Zen+Kurenaido&display=swap"
       rel="stylesheet"
     />
+
+    <!---bootstrap----->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
 
     <title>Nosotros</title>
@@ -40,20 +49,34 @@
           <nav>
             <!-----menu de navegacion----->
 
-            <ul class="menu">
-              <li class="menu__item"><a href="../index.html">Inicio</a></li>
-              <li class="menu__item">
-                <a href="./nosotros.html">Nosotros</a>
+            <ul class="nav justify-content-center">
+              <li class="nav-item menu__item">
+                <a
+                  class="texto__nav nav-link"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
               </li>
-              <li class="menu__item">
-                <a href="./catalogo.html">Catálogo</a>
+              <li class="nav-item">
+                <a class="nav-link texto__nav" href="./nosotros.html"
+                  >Nosotros</a
+                >
               </li>
-
-              <li class="menu__item">
-                <a href="./servicios.html">Servicios</a>
+              <li class="nav-item">
+                <a class="nav-link texto__nav" href="./catalogo.html"
+                  >Catálogo</a
+                >
               </li>
-              <li class="menu__item">
-                <a href="./contacto.html">Contacto</a>
+              <li class="nav-item">
+                <a class="nav-link texto__nav" href="./servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link texto__nav" href="./contacto.html"
+                  >Contacto</a
+                >
               </li>
             </ul>
           </nav>
@@ -63,36 +86,39 @@
 
     <main>
       <!-----main----->
-
-      <div class="row">
-        <div class="col">
-          <div class="nosotros__container">
-            <h2 class="titulo titulo animate__animated animate__fadeInDown">
-              Sobre nosotros...
-            </h2>
+      <section>
+        <div class="contenedor">
+          <div class="row">
+            <div class="col">
+              <div class="nosotros__container">
+                <h2 class="titulo titulo animate__animated animate__fadeInDown">
+                  Sobre nosotros...
+                </h2>
+              </div>
+              <section class="nosotros">
+                <div class="owner__container--img">
+                  <img class="owner__img" src="../img/owner.jpg" alt="owner" />
+                </div>
+                <div class="owner__container--text">
+                  <p class="owner__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur, voluptatibus!
+                  </p>
+                  <p class="owner__text2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur, voluptatibus! Lorem, ipsum.
+                  </p>
+                  <p class="owner__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur, voluptatibus! Lorem ipsum dolor sit amet. Lorem,
+                    ipsum dolor.
+                  </p>
+                </div>
+              </section>
+            </div>
           </div>
-          <section class="nosotros">
-            <div class="owner__container--img">
-              <img class="owner__img" src="../img/owner.jpg" alt="owner" />
-            </div>
-            <div class="owner__container--text">
-              <p class="owner__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Tenetur, voluptatibus!
-              </p>
-              <p class="owner__text2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Tenetur, voluptatibus! Lorem, ipsum.
-              </p>
-              <p class="owner__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Tenetur, voluptatibus! Lorem ipsum dolor sit amet. Lorem, ipsum
-                dolor.
-              </p>
-            </div>
-          </section>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer>
@@ -134,5 +160,22 @@
         </div>
       </div>
     </footer>
+
+    <!-----javascript----->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

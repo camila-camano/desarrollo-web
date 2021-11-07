@@ -12,40 +12,45 @@ header {
   background-color: #f5eccd;
   display: flex;
   flex-direction: column;
-  /*---menu---*/
 }
-header .contenedor {
+
+.contenedor {
   width: 80%;
   margin: 0 auto;
   max-width: 1320px;
 }
-header .logo__contenedor {
+
+.logo__contenedor {
   text-align: center;
 }
-header .logo {
+
+.logo {
   width: 3rem;
 }
-header .row1 {
+
+.row1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-header .col1 {
+
+.col1 {
   width: 100%;
 }
-header .menu {
-  display: flex;
-  list-style: none;
-}
-header .menu .menu__item {
-  color: white;
-  margin: 4px;
-  padding: 10px;
-}
-header .menu .menu__item a {
-  color: #1b065e;
-  text-decoration: none;
+
+/*---menu---*/
+nav .texto__nav {
+  color: #ff87ab;
   font-size: 20px;
+}
+nav .texto__nav:hover {
+  color: #ff47da;
+}
+
+/*----------main---------*/
+.main {
+  margin: 20px;
+  padding: 40px;
 }
 
 /*-------footer-----*/
@@ -99,7 +104,6 @@ body {
 main .intro {
   background-image: url(/img/pink_flowers.jpg);
   filter: saturate(0.6);
-  padding: 50px;
   width: 100%;
   height: auto;
 }
