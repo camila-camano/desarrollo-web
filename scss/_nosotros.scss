@@ -10,6 +10,9 @@
   .titulo {
     @include titulo;
   }
+  .subtitulo {
+    @include subtitulo;
+  }
 }
 
 .nosotros {
