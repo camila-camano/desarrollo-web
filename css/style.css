@@ -9,7 +9,7 @@ header {
   padding: 0.5rem 0;
   top: 0;
   z-index: 1;
-  background-color: #f5eccd;
+  background-color: #80c423;
   display: flex;
   flex-direction: column;
 }
@@ -40,11 +40,13 @@ header {
 
 /*---menu---*/
 nav .texto__nav {
-  color: #ff87ab;
+  color: white;
   font-size: 20px;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 nav .texto__nav:hover {
-  color: #ff47da;
+  color: #721cb8;
 }
 
 /*----------main---------*/
@@ -56,16 +58,18 @@ nav .texto__nav:hover {
 /*-------footer-----*/
 footer {
   height: 10%;
-  background-color: #1b065e;
+  background-color: #421869;
   padding-top: 2px;
   padding-bottom: 5px;
   text-align: right;
 }
 footer .footer--texto {
-  color: #f5eccd;
+  color: white;
   font-size: 15px;
   margin: 10px;
   padding: 10px;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 footer .iconos {
   display: flex;
@@ -93,55 +97,60 @@ footer .svg-icon circle {
 
 /*-----------body general------------*/
 body {
-  font-family: "Hind Siliguri", sans-serif;
-  font-family: "Nunito", sans-serif;
-  font-family: "Zen Kurenaido", sans-serif;
+  font-family: "Lora", serif;
   font-size: 100%;
-  background-color: #ff87ab;
+  background-color: white;
 }
 
 /*---- contenido del index ----*/
+main {
+  background-color: white;
+  height: 100%;
+}
 main .intro {
   background-image: url(/img/pink_flowers.jpg);
-  filter: saturate(0.6);
+  padding: 50px;
   width: 100%;
   height: auto;
 }
 main .intro .titulo {
-  color: #f5eccd;
+  color: white;
   font-size: 50px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  padding-top: 20px;
 }
 main .intro .subtitulo {
-  color: #f5eccd;
+  color: #eee3e3;
   font-size: 25px;
   font-style: italic;
   text-align: center;
+  padding-bottom: 20px;
 }
 main .intro__cuerpo {
-  background-color: #fcc8c2;
-  background-image: linear-gradient(#fcc8c2, #ff87ab);
   margin: 30px;
+  padding: 30px;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid #421869;
   border-radius: 4px;
 }
 main .intro__cuerpo--texto {
   font-size: 15px;
   padding: 20px;
-}
-main .intro__cuerpo--texto2 {
-  color: white;
-  font-style: italic;
-  font-size: 25px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-family: "PT Sans Narrow", sans-serif;
+  align-items: center;
 }
 main .intro__imagen {
   filter: saturate(0.6);
   width: 90%;
+}
+main .carrusel__item {
+  width: 100%;
+}
+main .carrusel-texto1 {
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 .nosotros__container {
@@ -152,10 +161,11 @@ main .intro__imagen {
   height: auto;
 }
 .nosotros__container .titulo {
-  color: #f5eccd;
+  color: white;
   font-size: 50px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  padding-top: 20px;
 }
 
 .nosotros {
@@ -195,25 +205,27 @@ main .intro__imagen {
   padding: 50px;
 }
 .fotos__oferta .titulo {
-  color: #f5eccd;
+  color: white;
   font-size: 50px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  padding-top: 20px;
 }
 .fotos__oferta .subtitulo {
-  color: #f5eccd;
+  color: #eee3e3;
   font-size: 25px;
   font-style: italic;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .catalogo {
-  background-color: #ff87ab;
+  background-color: white;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
   padding: 1rem;
-  background-color: #fcc8c2;
+  background-color: #721cb8;
   background-image: linear-gradient(#fcc8c2, #ff87ab);
   margin: 30px;
   text-align: center;
@@ -233,7 +245,7 @@ main .intro__imagen {
   font-size: 20px;
   margin-left: 15px;
   font-style: italic;
-  color: #1b065e;
+  color: #421869;
 }
 .catalogo .carta {
   padding: 1rem;
@@ -251,7 +263,7 @@ main .intro__imagen {
 }
 .catalogo .carta .titulo {
   font-size: 20px;
-  color: #ff47da;
+  color: #421869;
 }
 .catalogo .carta .subtitulo {
   color: #524b4b;
@@ -414,7 +426,7 @@ main .intro__imagen {
 .formulario .formulario--boton {
   margin: 20px;
   padding: 10px;
-  background-color: #ff47da;
+  background-color: #421869;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,18 @@
-$rosa_normal: #ff87ab;
-$rosa_claro: #fcc8c2;
-$rosa_fuerte: #ff47da;
-$crema: #f5eccd;
-$azul: #1b065e;
+$rosa_normal: white;
+$rosa_claro: #721cb8;
+$rosa_fuerte: #421869;
+$crema: #9cf945;
+$azul: #421869;
+
+$blanco: white;
+$gris: gray;
+$violeta1: #bf99f2;
+$violeta2: #721cb8;
+$violeta3: #421869;
+$verde1: #9cf945;
+$verde2: #8edf34;
+$verde3: #80c423;
+$verde4: #509724;
 
 $font-subtitle: 20px;
 $font_subtitle_color: grey;
@@ -14,15 +24,17 @@ $font_subtitle_color: grey;
 }
 
 @mixin titulo {
-  color: #f5eccd;
+  color: $blanco;
   font-size: 50px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  padding-top: 20px;
 }
 
 @mixin subtitulo {
-  color: #f5eccd;
+  color: rgb(238, 227, 227);
   font-size: 25px;
   font-style: italic;
   text-align: center;
+  padding-bottom: 20px;
 }

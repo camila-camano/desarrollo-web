@@ -6,7 +6,8 @@ header {
   padding: 0.5rem 0;
   top: 0;
   z-index: 1;
-  background-color: $crema;
+  background-color: $verde3;
+  //background-image: linear-gradient($verde1, $verde2);
   display: flex;
   flex-direction: column;
 }
@@ -36,12 +37,14 @@ header {
 /*---menu---*/
 nav {
   .texto__nav {
-    color: $rosa_normal;
+    color: $blanco;
     font-size: 20px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", sans-serif;
   }
 
   .texto__nav:hover {
-    color: $rosa_fuerte;
+    color: $violeta2;
   }
 }
 
@@ -60,10 +63,12 @@ footer {
   text-align: right;
 
   .footer--texto {
-    color: $crema;
+    color: $blanco;
     font-size: 15px;
     margin: 10px;
     padding: 10px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", sans-serif;
   }
   .iconos {
     @include flexbox;
@@ -94,9 +99,7 @@ footer {
 
 /*-----------body general------------*/
 body {
-  font-family: "Hind Siliguri", sans-serif;
-  font-family: "Nunito", sans-serif;
-  font-family: "Zen Kurenaido", sans-serif;
+  font-family: "Lora", serif;
 
   font-size: 100%;
   background-color: $rosa_normal;
