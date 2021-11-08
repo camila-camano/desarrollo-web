@@ -17,6 +17,8 @@ $verde4: #509724;
 $font-subtitle: 20px;
 $font_subtitle_color: grey;
 
+$font1: "PT Sans Narrow", sans-serif;
+
 @mixin flexbox {
   display: flex;
   justify-content: space-around;

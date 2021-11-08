@@ -25,29 +25,19 @@
   display: flex;
   justify-content: space-evenly;
 
-  .owner__container--img {
+  .owner__img {
     margin: 20px;
-  }
-
-  .owner__container--text {
-    background-color: #ffffff;
-    max-width: 450px;
-    margin: 20px;
-    border: 2px solid white;
-    text-align: center;
-    text-shadow: black;
-    font-family: "PT Sans Narrow", sans-serif;
+    padding: 20px;
   }
 
   .owner__text {
-    padding: 1rem;
+    padding: 10%;
+    margin: 20px;
     font-size: 25px;
+    font-family: $font1;
   }
 
-  .owner__text2 {
-    color: #ff47da;
-    font-style: bold;
-    padding: 1rem;
-    font-size: 25px;
+  .espaciado {
+    padding: 20px;
   }
 }
