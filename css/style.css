@@ -109,7 +109,7 @@ main {
   height: 100%;
 }
 main .intro {
-  background-image: url(./img/pink_flowers.jpg);
+  background-image: url(/img/pink_flowers.jpg);
   padding: 50px;
   width: 100%;
   height: auto;
