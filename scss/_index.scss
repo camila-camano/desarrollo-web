@@ -18,6 +18,7 @@ main {
     }
     .subtitulo {
       @include subtitulo;
+      text-shadow: $font_shadow;
     }
   }
 

@@ -81,56 +81,65 @@
       <!-----main----->
 
       <!-----contenedor del formulario----->
-      <div class="formulario--contenedor">
-        <!-----texto pre formulario----->
-        <p class="formulario--info">
-          Para contactarse con nosotros, complete el siguiente formulario con la
-          información solicitada:
-        </p>
 
-        <!-----formulario posta---->
-        <div class="formulario">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                No compartiremos tu información.
+      <div class="container">
+        <div class="formulario--contenedor">
+          <div class="row">
+            <div class="col">
+              <p class="formulario--info">
+                Para contactarse con nosotros, por favor complete el siguiente
+                formulario con la información solicitada:
+              </p>
+              <div class="imagen_contenedor">
+                <img
+                  class="icono_info"
+                  src="/img/question.png"
+                  alt="question"
+                />
               </div>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
+            <div class="col">
+              <div class="formulario">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="form-text">
+                      Su información no será compartida.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" />
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Quiero suscribirme.</label
+                    >
+                  </div>
+                  <button
+                    class="formulario--boton"
+                    type="submit"
+                    class="btn btn-primary"
+                  >
+                    Enviar
+                  </button>
+                </form>
+              </div>
             </div>
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Quiero suscribirme.</label
-              >
-            </div>
-            <button
-              class="formulario--boton"
-              type="submit"
-              class="btn btn-primary"
-            >
-              Enviar
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </main>

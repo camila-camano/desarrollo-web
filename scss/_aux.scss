@@ -19,6 +19,8 @@ $font_subtitle_color: grey;
 
 $font1: "PT Sans Narrow", sans-serif;
 
+$font_shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
 @mixin flexbox {
   display: flex;
   justify-content: space-around;
@@ -26,17 +28,19 @@ $font1: "PT Sans Narrow", sans-serif;
 }
 
 @mixin titulo {
-  color: $blanco;
+  color: $verde1;
   font-size: 50px;
   text-align: center;
   padding: 10px;
   padding-top: 20px;
+  text-shadow: $font_shadow;
 }
 
 @mixin subtitulo {
-  color: rgb(238, 227, 227);
+  color: $violeta3;
   font-size: 25px;
   font-style: italic;
   text-align: center;
   padding-bottom: 20px;
+  text-shadow: $font_shadow;
 }

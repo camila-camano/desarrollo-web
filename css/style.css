@@ -115,18 +115,21 @@ main .intro {
   height: auto;
 }
 main .intro .titulo {
-  color: white;
+  color: #9cf945;
   font-size: 50px;
   text-align: center;
   padding: 10px;
   padding-top: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 main .intro .subtitulo {
-  color: #eee3e3;
+  color: #421869;
   font-size: 25px;
   font-style: italic;
   text-align: center;
   padding-bottom: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 main .intro__cuerpo {
   margin: 30px;
@@ -162,18 +165,20 @@ main .carrusel-texto1 {
   height: auto;
 }
 .nosotros__container .titulo {
-  color: white;
+  color: #9cf945;
   font-size: 50px;
   text-align: center;
   padding: 10px;
   padding-top: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .nosotros__container .subtitulo {
-  color: #eee3e3;
+  color: #421869;
   font-size: 25px;
   font-style: italic;
   text-align: center;
   padding-bottom: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .nosotros {
@@ -204,18 +209,20 @@ main .carrusel-texto1 {
   padding: 50px;
 }
 .fotos__oferta .titulo {
-  color: white;
+  color: #9cf945;
   font-size: 50px;
   text-align: center;
   padding: 10px;
   padding-top: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .fotos__oferta .subtitulo {
-  color: #eee3e3;
+  color: #421869;
   font-size: 25px;
   font-style: italic;
   text-align: center;
   padding-bottom: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .catalogo {
@@ -288,7 +295,7 @@ main .carrusel-texto1 {
   margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.1);
+  filter: saturate(0.3);
   width: 100%;
   height: 200px;
   transition: all 1s;
@@ -296,16 +303,18 @@ main .carrusel-texto1 {
 }
 .servicio__1 .servicio__titulo {
   font-size: 30px;
-  color: white;
-  text-align: center;
-  margin: 20px;
-}
-.servicio__1 .servicio__subtitulo {
-  font-size: 25px;
   color: #721cb8;
   text-align: center;
   margin: 20px;
+  padding-top: 30px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.servicio__1 .servicio__subtitulo {
+  font-size: 25px;
+  color: #421869;
+  text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .servicio__1:hover {
@@ -319,7 +328,7 @@ main .carrusel-texto1 {
   margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.1);
+  filter: saturate(0.3);
   width: 100%;
   height: 200px;
   transition: all 1s;
@@ -327,16 +336,18 @@ main .carrusel-texto1 {
 }
 .servicio__2 .servicio__titulo {
   font-size: 30px;
-  color: white;
-  text-align: center;
-  margin: 20px;
-}
-.servicio__2 .servicio__subtitulo {
-  font-size: 25px;
   color: #721cb8;
   text-align: center;
   margin: 20px;
+  padding-top: 30px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.servicio__2 .servicio__subtitulo {
+  font-size: 25px;
+  color: #421869;
+  text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .servicio__2:hover {
@@ -350,7 +361,7 @@ main .carrusel-texto1 {
   margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.1);
+  filter: saturate(0.3);
   width: 100%;
   height: 200px;
   transition: all 1s;
@@ -358,16 +369,18 @@ main .carrusel-texto1 {
 }
 .servicio__3 .servicio__titulo {
   font-size: 30px;
-  color: white;
-  text-align: center;
-  margin: 20px;
-}
-.servicio__3 .servicio__subtitulo {
-  font-size: 25px;
   color: #721cb8;
   text-align: center;
   margin: 20px;
+  padding-top: 30px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.servicio__3 .servicio__subtitulo {
+  font-size: 25px;
+  color: #421869;
+  text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .servicio__3:hover {
@@ -387,11 +400,20 @@ main .carrusel-texto1 {
 }
 .formulario--contenedor .formulario--info {
   margin: 25px;
+  padding-top: 50px;
   text-align: center;
 }
 
+.imagen_contenedor {
+  text-align: center;
+}
+
+.icono_info {
+  width: 10rem;
+}
+
 .formulario {
-  background-color: #bf99f2;
+  background-color: #9cf945;
   margin: 15px;
   padding: 15px;
 }
@@ -402,7 +424,7 @@ main .carrusel-texto1 {
 .formulario .formulario--boton {
   margin: 20px;
   padding: 10px;
-  background-color: #421869;
+  background-color: #721cb8;
 }
 
 /*# sourceMappingURL=style.css.map */

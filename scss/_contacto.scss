@@ -11,12 +11,20 @@
 
   .formulario--info {
     margin: 25px;
+    padding-top: 50px;
     text-align: center;
   }
 }
 
+.imagen_contenedor {
+  text-align: center;
+}
+.icono_info {
+  width: 10rem;
+}
+
 .formulario {
-  background-color: $violeta1;
+  background-color: $verde1;
   margin: 15px;
   padding: 15px;
 
@@ -27,6 +35,6 @@
   .formulario--boton {
     margin: 20px;
     padding: 10px;
-    background-color: $violeta3;
+    background-color: $violeta2;
   }
 }

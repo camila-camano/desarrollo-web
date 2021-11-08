@@ -4,7 +4,7 @@
   margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.1);
+  filter: saturate(0.3);
   width: 100%;
 
   height: 200px;
@@ -12,24 +12,27 @@
 
   .servicio__titulo {
     @include titulo__servicio();
+    text-shadow: $font_shadow;
   }
   .servicio__subtitulo {
     @include subtitulo__servicio();
+    text-shadow: $font_shadow;
   }
 }
 
 @mixin titulo__servicio {
   font-size: 30px;
-  color: $blanco;
+  color: $violeta2;
   text-align: center;
   margin: 20px;
+  padding-top: 30px;
 }
 
 @mixin subtitulo__servicio {
   font-size: 25px;
-  color: $violeta2;
+  color: $violeta3;
   text-align: center;
-  margin: 20px;
+
   font-family: $font1;
 }
 
