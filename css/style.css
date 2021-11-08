@@ -183,7 +183,7 @@ main .carrusel-texto1 {
 
 .nosotros {
   margin: 30px;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   border: 1px solid #421869;
   border-radius: 4px;
@@ -195,7 +195,7 @@ main .carrusel-texto1 {
   padding: 20px;
 }
 .nosotros .owner__text {
-  padding: 10%;
+  padding: 10px;
   margin: 20px;
   font-size: 25px;
   font-family: "PT Sans Narrow", sans-serif;
@@ -388,6 +388,15 @@ main .carrusel-texto1 {
   padding: 40px;
 }
 
+.titulo {
+  color: #bf99f2;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 .formulario--contenedor {
   margin: 30px;
   padding: 30px;
@@ -398,10 +407,19 @@ main .carrusel-texto1 {
   flex-direction: column;
   align-items: center;
 }
+.formulario--contenedor .titulo {
+  color: #bf99f2;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 .formulario--contenedor .formulario--info {
   margin: 25px;
   padding-top: 50px;
   text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .imagen_contenedor {

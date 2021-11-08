@@ -64,3 +64,7 @@
   height: 300px;
   padding: 40px;
 }
+
+.titulo {
+  @include titulo;
+}
