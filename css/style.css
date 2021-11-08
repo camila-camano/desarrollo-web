@@ -283,12 +283,12 @@ main .carrusel-texto1 {
 }
 
 .servicio__1 {
-  border-top: white 2px solid;
-  border-bottom: white 2px solid;
+  border-top: #bf99f2 2px solid;
+  border-bottom: #bf99f2 2px solid;
   margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.2);
+  filter: saturate(0.1);
   width: 100%;
   height: 200px;
   transition: all 1s;
@@ -298,22 +298,14 @@ main .carrusel-texto1 {
   font-size: 30px;
   color: white;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
 }
 .servicio__1 .servicio__subtitulo {
   font-size: 25px;
   color: #721cb8;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   font-family: "PT Sans Narrow", sans-serif;
-}
-.servicio__1 .servicio__texto {
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  color: #80c423;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: bold;
 }
 
 .servicio__1:hover {
@@ -322,12 +314,12 @@ main .carrusel-texto1 {
 }
 
 .servicio__2 {
-  border-top: white 2px solid;
-  border-bottom: white 2px solid;
+  border-top: #bf99f2 2px solid;
+  border-bottom: #bf99f2 2px solid;
   margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.2);
+  filter: saturate(0.1);
   width: 100%;
   height: 200px;
   transition: all 1s;
@@ -337,22 +329,14 @@ main .carrusel-texto1 {
   font-size: 30px;
   color: white;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
 }
 .servicio__2 .servicio__subtitulo {
   font-size: 25px;
   color: #721cb8;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   font-family: "PT Sans Narrow", sans-serif;
-}
-.servicio__2 .servicio__texto {
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  color: #80c423;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: bold;
 }
 
 .servicio__2:hover {
@@ -361,12 +345,12 @@ main .carrusel-texto1 {
 }
 
 .servicio__3 {
-  border-top: white 2px solid;
-  border-bottom: white 2px solid;
+  border-top: #bf99f2 2px solid;
+  border-bottom: #bf99f2 2px solid;
   margin-top: 25px;
   margin-bottom: 25px;
   background-image: url(../img/servicio1.jpg);
-  filter: saturate(0.2);
+  filter: saturate(0.1);
   width: 100%;
   height: 200px;
   transition: all 1s;
@@ -376,22 +360,14 @@ main .carrusel-texto1 {
   font-size: 30px;
   color: white;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
 }
 .servicio__3 .servicio__subtitulo {
   font-size: 25px;
   color: #721cb8;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   font-family: "PT Sans Narrow", sans-serif;
-}
-.servicio__3 .servicio__texto {
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  color: #80c423;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: bold;
 }
 
 .servicio__3:hover {
