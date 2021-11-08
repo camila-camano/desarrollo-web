@@ -193,13 +193,12 @@ main .carrusel-texto1 {
   justify-content: space-evenly;
 }
 .nosotros .owner__img {
-  margin: 20px;
-  padding: 20px;
+  width: 30rem;
 }
 .nosotros .owner__text {
-  padding: 10px;
+  padding-top: 20px;
   margin: 20px;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "PT Sans Narrow", sans-serif;
 }
 .nosotros .espaciado {
@@ -432,7 +431,7 @@ main .carrusel-texto1 {
 }
 
 .icono_info {
-  width: 10rem;
+  width: 8rem;
 }
 
 .formulario {
