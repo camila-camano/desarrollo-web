@@ -109,7 +109,7 @@ main {
   height: 100%;
 }
 main .intro {
-  background-image: url(/img/pink_flowers.jpg);
+  background-image: url(./img/pink_flowers.jpg);
   padding: 50px;
   width: 100%;
   height: auto;
@@ -118,6 +118,7 @@ main .intro .titulo {
   color: #bf99f2;
   font-size: 50px;
   text-align: center;
+  justify-items: center;
   padding: 10px;
   padding-top: 20px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -168,6 +169,7 @@ main .carrusel-texto1 {
   color: #bf99f2;
   font-size: 50px;
   text-align: center;
+  justify-items: center;
   padding: 10px;
   padding-top: 20px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -212,6 +214,7 @@ main .carrusel-texto1 {
   color: #bf99f2;
   font-size: 50px;
   text-align: center;
+  justify-items: center;
   padding: 10px;
   padding-top: 20px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -392,6 +395,7 @@ main .carrusel-texto1 {
   color: #bf99f2;
   font-size: 50px;
   text-align: center;
+  justify-items: center;
   padding: 10px;
   padding-top: 20px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -411,6 +415,7 @@ main .carrusel-texto1 {
   color: #bf99f2;
   font-size: 50px;
   text-align: center;
+  justify-items: center;
   padding: 10px;
   padding-top: 20px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
