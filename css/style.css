@@ -159,7 +159,7 @@ main .carrusel-texto1 {
 }
 
 .nosotros__container {
-  background-image: url(/img/nosotros_banner.jpg);
+  background-image: url(../img/nosotros_banner.jpg);
   filter: saturate(0.6);
   padding: 50px;
   width: 100%;
