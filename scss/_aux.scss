@@ -1,9 +1,4 @@
-$rosa_normal: white;
-$rosa_claro: #721cb8;
-$rosa_fuerte: #421869;
-$crema: #9cf945;
-$azul: #421869;
-
+//colores
 $blanco: white;
 $gris: rgb(245, 222, 242);
 $violeta1: #bf99f2;
@@ -14,13 +9,13 @@ $verde2: #8edf34;
 $verde3: #80c423;
 $verde4: #509724;
 
+//estilos de los fonts
 $font-subtitle: 20px;
 $font_subtitle_color: grey;
-
 $font1: "PT Sans Narrow", sans-serif;
-
 $font_shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
+//mixins
 @mixin flexbox {
   display: flex;
   justify-content: space-around;
