@@ -258,7 +258,7 @@ main .carrusel-texto1 {
   font-family: "PT Sans Narrow", sans-serif;
 }
 .catalogo .carta {
-  padding: 1rem;
+  padding: 0.5rem;
   justify-self: center;
   align-self: center;
   width: 100%;
@@ -286,7 +286,7 @@ main .carrusel-texto1 {
   height: auto;
   width: 6rem;
   margin: 5px;
-  padding: 10px;
+  padding: 1rem;
   background-color: white;
   border: 1px solid #421869;
   border-radius: 4px;
