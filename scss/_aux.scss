@@ -28,7 +28,7 @@ $font_shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 @mixin titulo {
-  color: $violeta1;
+  color: $violeta3;
   font-size: 50px;
   text-align: center;
   justify-items: center;
@@ -38,7 +38,7 @@ $font_shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 @mixin subtitulo {
-  color: $violeta3;
+  color: $verde4;
   font-size: 25px;
   font-style: italic;
   text-align: center;

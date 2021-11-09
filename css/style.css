@@ -115,7 +115,7 @@ main .intro {
   height: auto;
 }
 main .intro .titulo {
-  color: #bf99f2;
+  color: #421869;
   font-size: 50px;
   text-align: center;
   justify-items: center;
@@ -124,7 +124,7 @@ main .intro .titulo {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 main .intro .subtitulo {
-  color: #421869;
+  color: #509724;
   font-size: 25px;
   font-style: italic;
   text-align: center;
@@ -166,7 +166,7 @@ main .carrusel-texto1 {
   height: auto;
 }
 .nosotros__container .titulo {
-  color: #bf99f2;
+  color: #421869;
   font-size: 50px;
   text-align: center;
   justify-items: center;
@@ -175,7 +175,7 @@ main .carrusel-texto1 {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .nosotros__container .subtitulo {
-  color: #421869;
+  color: #509724;
   font-size: 25px;
   font-style: italic;
   text-align: center;
@@ -193,16 +193,21 @@ main .carrusel-texto1 {
   justify-content: space-evenly;
 }
 .nosotros .owner__img {
-  width: 30rem;
+  width: 100%;
 }
 .nosotros .owner__text {
   padding-top: 20px;
   margin: 20px;
-  font-size: 30px;
+  font-size: 1.5rem;
   font-family: "PT Sans Narrow", sans-serif;
 }
+@media (max-width: 768px) {
+  .nosotros .owner__text {
+    font-size: 1rem;
+  }
+}
 .nosotros .espaciado {
-  padding: 20px;
+  padding: 10px;
 }
 
 .fotos__oferta {
@@ -210,7 +215,7 @@ main .carrusel-texto1 {
   padding: 50px;
 }
 .fotos__oferta .titulo {
-  color: #bf99f2;
+  color: #421869;
   font-size: 50px;
   text-align: center;
   justify-items: center;
@@ -219,7 +224,7 @@ main .carrusel-texto1 {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .fotos__oferta .subtitulo {
-  color: #421869;
+  color: #509724;
   font-size: 25px;
   font-style: italic;
   text-align: center;
@@ -391,7 +396,7 @@ main .carrusel-texto1 {
 }
 
 .titulo {
-  color: #bf99f2;
+  color: #421869;
   font-size: 50px;
   text-align: center;
   justify-items: center;
@@ -411,7 +416,7 @@ main .carrusel-texto1 {
   align-items: center;
 }
 .formulario--contenedor .titulo {
-  color: #bf99f2;
+  color: #421869;
   font-size: 50px;
   text-align: center;
   justify-items: center;

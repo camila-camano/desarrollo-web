@@ -26,17 +26,20 @@
   justify-content: space-evenly;
 
   .owner__img {
-    width: 30rem;
+    width: 100%;
   }
 
   .owner__text {
     padding-top: 20px;
     margin: 20px;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-family: $font1;
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
 
   .espaciado {
-    padding: 20px;
+    padding: 10px;
   }
 }
