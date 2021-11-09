@@ -29,7 +29,7 @@
 }
 
 .formulario {
-  background-color: $verde1;
+  background-color: $verde2;
   margin: 15px;
   padding: 15px;
 
@@ -41,5 +41,10 @@
     margin: 20px;
     padding: 10px;
     background-color: $violeta2;
+  }
+
+  .formulario--texto {
+    color: white;
+    font-family: $font1;
   }
 }

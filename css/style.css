@@ -440,7 +440,7 @@ main .carrusel-texto1 {
 }
 
 .formulario {
-  background-color: #9cf945;
+  background-color: #8edf34;
   margin: 15px;
   padding: 15px;
 }
@@ -452,6 +452,10 @@ main .carrusel-texto1 {
   margin: 20px;
   padding: 10px;
   background-color: #721cb8;
+}
+.formulario .formulario--texto {
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
