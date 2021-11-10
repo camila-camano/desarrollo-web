@@ -52,13 +52,15 @@ nav {
 
 /*----------main---------*/
 .main {
+  height: 100%;
   margin: 20px;
   padding: 40px;
 }
 
 /*-------footer-----*/
 footer {
-  height: 10%;
+  height: 100%;
+  width: 100%;
   background-color: $violeta3;
   padding-top: 2px;
   padding-bottom: 5px;
